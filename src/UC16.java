@@ -1,6 +1,6 @@
 public class UC16 {
 
-    // Bubble Sort method
+    // Method to perform Bubble Sort
     public static int[] sortCapacities(int[] capacities) {
 
         for (int i = 0; i < capacities.length - 1; i++) {
@@ -8,7 +8,7 @@ public class UC16 {
 
                 if (capacities[j] > capacities[j + 1]) {
 
-                    // Swap values
+                    // Swap
                     int temp = capacities[j];
                     capacities[j] = capacities[j + 1];
                     capacities[j + 1] = temp;
@@ -19,3 +19,4 @@ public class UC16 {
         return capacities;
     }
 }
+
